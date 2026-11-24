@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>古琴减字谱打谱工作台</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-seal">琴</span>
+          <div>
+            <h1>古琴减字谱打谱工作台</h1>
+            <p class="subtitle">刻本扫描 · 朱墨分色 · 部件拆解 · 音高推算</p>
+          </div>
+        </div>
+        <nav class="steps" id="step-nav"></nav>
+      </header>
+      <main id="view-root"></main>
+      <footer class="statusbar" id="statusbar">就绪</footer>
+    </div>
+    <script type="module" src="/src/app/main.ts"></script>
+  </body>
+</html>
